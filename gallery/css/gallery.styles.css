@@ -1,0 +1,260 @@
+html {
+  scroll-behavior: smooth;
+ }
+
+body {
+  margin:0;
+  /* background: #fff; */
+  font-family: Verdana, 'Arial Black', メイリオ, sans-serif;
+
+ }
+
+ /* ヘッダー */
+ header{
+  width:100%;
+  height:100px;
+  border-bottom: 6px solid rgb(166,29,76);
+  
+  /* position: fixed; 
+   top: 0; 
+   left: 0; 
+   z-index: 10; */
+ 
+ }
+
+ /* ヘッダー背景 */
+ .bg{
+  width:100%;
+  height:100px;
+  background-image: url("../../img/cherryblossoms.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  opacity:0.5;
+
+}
+
+ .header-contents{
+   display:flex;
+   align-items: center;
+   justify-content: space-around;
+   width:100%;
+   height: 100px;
+   position:absolute;
+   top:0;
+   left:0;
+ }
+
+ /* .header-image{
+   margin-left: calc(50% - 64px);
+ } */
+
+ .header-image img{
+   width:64px;
+   height:64px;
+   margin-top: 16px;   
+  
+  }
+
+  
+ 
+
+  /* メイン */
+  .container{
+    position: absolute;
+    top: 160px;
+    left:0;
+    width:100%;
+    height:fit-content;
+  }
+  .sub-title{
+    display:flex;
+    align-items: center;
+    width:90%;
+    border-bottom: double 4px rgb(126,55,148);
+    margin-left: 16px;
+    margin-right: 16px;
+    
+  }
+
+  .sub-title img{
+    width:24x;
+    height:24px;
+    margin-left:16px;
+    padding:8px;
+    /* border:2px solid rgb(126,55,148); */
+    border-radius: 50%;
+    background-color: rgb(126,55,148);
+  }
+
+  .sub-title h2{
+    margin:0;
+    margin-left:16px;
+    font-weight:normal;
+    font-family:Sukhumvit Setmac;
+    font-size: 22px;
+    /* /* border-bottom: double 4px rgb(166,29,76); */
+  }
+
+
+
+  .gallery{
+    margin-bottom:24px;
+  }
+  
+  .gallery-details{
+    background-color: #F6F3EE;
+    padding:8px;
+    box-shadow: 5px 2.5px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .gallery-info{
+    margin:16px;
+    font-size:16px;
+    text-align: left;
+    line-height: 1.79;
+    /* background-color: #F6F3EE;
+    padding:8px; */
+    /* box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.3); */
+    /* box-shadow: 5px 2.5px 3px rgba(0, 0, 0, 0.3); */
+  }
+
+  .introduction-title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .introduction-title img{
+    width:48px;
+    height:48px;
+  }
+
+  .introduction-title span{
+    /* color:rgb(19,149,92); */
+    color:rgb(126,55,148);
+  }
+
+  .introduction-title h3{
+    /* font-family: cursive; */
+    font-weight: normal;
+    margin:0;
+    padding:0 8px;
+    /* color:rgb(19,149,92); */
+    color:rgb(126,55,148);
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+   
+  .gallery-photo{
+    text-align: center;
+  }
+  
+  .gallery-photo img{
+    width:80px;
+    height:120px;
+    object-fit: cover;
+    margin:16px 8px 32px 8px;
+    box-shadow: 5px 2.5px 3px rgba(0, 0, 0, 0.3);
+    transition:.3s;
+  }
+
+/* フッター */
+  footer{
+    width:100%;
+    height:120px;
+    background-color: rgb(166,29,76);
+    
+  }
+  
+  .footer-top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-image img{
+    width:64px;
+    height:64px;
+    margin-top: 16px; 
+    margin-left:16px;   
+   }
+  
+   .footer-info{
+     text-align: end;
+     margin-right:16px;
+   }
+  
+   .footer-info p{
+     margin:0;
+     color:white;
+     font-size:12px;
+     line-height: 1.79;
+   }
+  
+   .copyright{
+    margin:0 auto;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 8px;
+    font-size: 10px;
+    color:white;
+   }
+  
+  
+  
+  
+ 
+
+  /* レスポンシブ（大きい画面） */
+@media (min-width: 600px) {
+  .pc-menu{
+   display:block;
+  }
+
+ .pc-menu ul{
+   display:flex;
+   justify-content: center;
+   list-style-type: none;
+   font-size:14px;
+   width:100%;
+   height:37.6px;
+   margin:0;
+   padding:0;
+   background-color:rgb(166,29,76);
+ }
+
+ .pc-menu li{
+   text-align: center;
+   padding-top: 8px;
+   display:inline-block;
+  }
+
+ .pc-menu li a{
+   font-family:Sukhumvit Setmac;
+   text-decoration: none;
+   background-color:rgb(166,29,76);
+   color:white;
+   padding:8px 16px;
+   }
+
+   .pc-menu li a:hover{
+     background-color:rgb(188,86,121);
+   }
+
+   .sp-menu{
+     display:none;
+   }
+
+
+   /* レスポンシブ　フッター */
+   footer{
+     width:100%;
+   }
+
+   .footer-top{
+    justify-content: space-around;
+  }
+
+
+  }
