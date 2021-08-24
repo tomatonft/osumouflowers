@@ -41,10 +41,10 @@
     overlay.classList.remove('show');
     open.classList.remove('hide');
   });
-  document.querySelectorAll('div.overlay a')[6].addEventListener('click', () => {
-    overlay.classList.remove('show');
-    open.classList.remove('hide');
-  });
+  // document.querySelectorAll('div.overlay a')[6].addEventListener('click', () => {
+  //   overlay.classList.remove('show');
+  //   open.classList.remove('hide');
+  // });
 
   
    
