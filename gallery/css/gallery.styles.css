@@ -4,9 +4,7 @@ html {
 
 body {
   margin:0;
-  /* background: #fff; */
   font-family: Verdana, 'Arial Black', メイリオ, sans-serif;
-
  }
 
  /* ヘッダー */
@@ -14,12 +12,6 @@ body {
   width:100%;
   height:100px;
   border-bottom: 6px solid rgb(166,29,76);
-  
-  /* position: fixed; 
-   top: 0; 
-   left: 0; 
-   z-index: 10; */
- 
  }
 
  /* ヘッダー背景 */
@@ -31,7 +23,6 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   opacity:0.5;
-
 }
 
  .header-contents{
@@ -45,19 +36,11 @@ body {
    left:0;
  }
 
- /* .header-image{
-   margin-left: calc(50% - 64px);
- } */
-
  .header-image img{
    width:64px;
    height:64px;
    margin-top: 16px;   
-  
   }
-
-  
- 
 
   /* メイン */
   .container{
@@ -74,14 +57,13 @@ body {
   
    .topbtn-home a{
     display:block;
-     text-decoration: none;
-      background-color:rgb(166,29,76);
-      color:white;
-      font-size:12px;
-      /* padding:8px 16px; */
-     padding: 8px;
-      text-align: center;
-      width: 48px;
+    text-decoration: none;
+    background-color:rgb(166,29,76);
+    color:white;
+    font-size:12px;
+    padding: 8px;
+    text-align: center;
+    width: 48px;
     border-radius: 2px;
     margin-left:auto;
     margin-right:5%;
@@ -107,8 +89,7 @@ body {
     width:90%;
     border-bottom: double 4px rgb(126,55,148);
     margin-left: 16px;
-    margin-right: 16px;
-    
+    margin-right: 16px;  
   }
 
   .sub-title img{
@@ -116,7 +97,6 @@ body {
     height:24px;
     margin-left:16px;
     padding:8px;
-    /* border:2px solid rgb(126,55,148); */
     border-radius: 50%;
     background-color: rgb(126,55,148);
   }
@@ -127,10 +107,7 @@ body {
     font-weight:normal;
     font-family:Sukhumvit Setmac;
     font-size: 22px;
-    /* /* border-bottom: double 4px rgb(166,29,76); */
-  }
-
-
+   }
 
   .gallery{
     margin-bottom:24px;
@@ -147,10 +124,6 @@ body {
     font-size:16px;
     text-align: left;
     line-height: 1.79;
-    /* background-color: #F6F3EE;
-    padding:8px; */
-    /* box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.3); */
-    /* box-shadow: 5px 2.5px 3px rgba(0, 0, 0, 0.3); */
   }
 
   .gallery-subtitle{
@@ -161,8 +134,6 @@ body {
    }
  
    .gallery-subtitle p{
-     /* display:block;
-     width:45%; */
      margin-top:16px;
      font-size:16px;
      padding:4px;
@@ -186,16 +157,13 @@ body {
   }
 
   .introduction-title span{
-    /* color:rgb(19,149,92); */
     color:rgb(126,55,148);
   }
 
   .introduction-title h3{
-    /* font-family: cursive; */
     font-weight: normal;
     margin:0;
     padding:0 8px;
-    /* color:rgb(19,149,92); */
     color:rgb(126,55,148);
     text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);
   }
@@ -220,19 +188,18 @@ body {
  }
 
  .btn-home a{
-  display:block;
+   display:block;
    text-decoration: none;
-    background-color:rgb(166,29,76);
-    color:white;
-    font-size:12px;
-    /* padding:8px 16px; */
+   background-color:rgb(166,29,76);
+   color:white;
+   font-size:12px;
    padding: 8px;
-    text-align: center;
-    width: 48px;
-  border-radius: 2px;
-  margin:0 auto;
-  transition:.3s;
-  box-shadow: 5px 2.5px 3px rgba(0, 0, 0, 0.3);
+   text-align: center;
+   width: 48px;
+   border-radius: 2px;
+   margin:0 auto;
+   transition:.3s;
+   box-shadow: 5px 2.5px 3px rgba(0, 0, 0, 0.3);
  }
 
  .btn-home a:hover{
@@ -267,8 +234,7 @@ body {
   footer{
     width:100%;
     height:120px;
-    background-color: rgb(166,29,76);
-    
+    background-color: rgb(166,29,76);    
   }
   
   .footer-top{
@@ -304,20 +270,13 @@ body {
     font-size: 10px;
     color:white;
    }
-  
-  
-  
-  
  
-
   /* レスポンシブ（大きい画面） */
 @media (min-width: 600px) {
   
-
    .pc-subtitle{
     width:72%;
     margin:0 auto;
-
   }
 
   .gallery-info{
@@ -340,10 +299,7 @@ body {
     width:150px;
     height:225px;
     object-fit: cover;
-    /* margin:16px 8px 32px 8px; */
     margin:24px;
-    /* box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.3);
-    transition:.3s; */
   }
 
    /* レスポンシブ　フッター */
@@ -354,6 +310,5 @@ body {
    .footer-top{
     justify-content: space-around;
   }
-
-
-  }
+  
+}

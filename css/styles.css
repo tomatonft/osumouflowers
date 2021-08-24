@@ -4,7 +4,6 @@ html {
 
 body {
   margin:0;
-  /* background: #fff; */
   font-family: Verdana, 'Arial Black', メイリオ, sans-serif;
 
  }
@@ -14,12 +13,6 @@ body {
   width:100%;
   height:100px;
   border-bottom: 6px solid rgb(166,29,76);
-  
-  /* position: fixed; 
-   top: 0; 
-   left: 0; 
-   z-index: 10; */
- 
  }
 
  /* ヘッダー背景 */
@@ -45,22 +38,10 @@ body {
    left:0;
  }
 
- /* .header-image{
-   margin-left: calc(50% - 64px);
- } */
-
  .header-image img{
    width:64px;
    height:64px;
-   margin-top: 16px;   
-  
-  }
-
-  
-  .sp-menu{
-    /* margin-left: auto; */
-    /* margin-right: 24px; */
-    
+   margin-top: 16px;    
   }
 
   .sp-menu #open{
@@ -79,7 +60,6 @@ body {
     right:0;
     left:0;
     background: rgba(255,255,255,0.95);
-    /* background: rgba(215,153,174,0.95); */
     z-index: 11;
     text-align: center;
     padding:64px;
@@ -109,8 +89,6 @@ body {
   }
 
   .overlay li{
-    /* color:rgb(166,29,76);
-    text-decoration: none; */
     margin-top:24px;
     text-align:left;
     opacity:0;
@@ -120,7 +98,6 @@ body {
 
   .overlay li a{
     color:rgb(166,29,76);
-    /* text-decoration: none; */
   }
 
   .overlay.show li{
@@ -173,7 +150,6 @@ body {
     text-align: left;
     line-height: 1.79;
     background-color: #F6F3EE;
-    /* box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.3); */
     box-shadow: 5px 2.5px 3px rgba(0, 0, 0, 0.3);
     padding:8px;
   }
@@ -191,16 +167,13 @@ body {
   }
 
   .product-subtitle p{
-    /* display:block;
-    width:45%; */
     margin-top:32px;
     margin-bottom: 32px;
     font-size:16px;
     padding:4px;
     color:white;
     font-weight: normal;
-    background-color: rgb(166,29,76);
-    
+    background-color: rgb(166,29,76);  
   }
 
   .sub-title{
@@ -218,7 +191,6 @@ body {
     height:24px;
     margin-left:16px;
     padding:8px;
-    /* border:2px solid rgb(126,55,148); */
     border-radius: 50%;
     background-color: rgb(126,55,148);
   }
@@ -229,7 +201,6 @@ body {
     font-weight:normal;
     font-family:Sukhumvit Setmac;
     font-size: 22px;
-    /* /* border-bottom: double 4px rgb(166,29,76); */
   }
 
   .introduction{
@@ -251,16 +222,13 @@ body {
   }
 
   .introduction-title span{
-    /* color:rgb(19,149,92); */
     color:rgb(126,55,148);
   }
 
   .introduction h3{
-    /* font-family: cursive; */
     font-weight: normal;
     margin:0;
     padding:0 8px;
-    /* color:rgb(19,149,92); */
     color:rgb(126,55,148);
     text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);
   }
@@ -269,10 +237,8 @@ body {
     width:200px;
     height:300px;
     object-fit: cover;
-    /* border:2px solid rgb(19,149,92); */
     border:2px solid rgb(126,55,148);
     border-radius: 8px;
-    /* box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.3); */
     box-shadow: 5px 2.5px 3px rgba(0, 0, 0, 0.3);
   }
 
@@ -281,7 +247,6 @@ body {
     height:72px;
     background-color: #F6F3EE;
     margin:0 auto;
-    /* box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.3); */
     box-shadow: 5px 2.5px 3px rgba(0, 0, 0, 0.3);
   }
 
@@ -302,7 +267,6 @@ body {
   line-height: 1.79;
   background-color: #F6F3EE;
   padding:8px;
-  /* box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.3); */
   box-shadow: 5px 2.5px 3px rgba(0, 0, 0, 0.3);
 }
 
@@ -331,7 +295,6 @@ body {
   width:85%;
   padding-top: 75%;
   margin:0 auto;
-  /* padding-bottom:16px; */
 }
 
 .iframe-wrap iframe{
@@ -353,11 +316,7 @@ body {
   font-size:16px;
   text-align: left;
   line-height: 1.79;
-  /* background-color: #F6F3EE; */
-  /* padding:8px; */
-  /* box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.3); */
-  /* box-shadow: 5px 2.5px 3px rgba(0, 0, 0, 0.3); */
-}
+ }
 
 .contact-details{
   background-color: #F6F3EE;
@@ -384,8 +343,6 @@ body {
   margin:0;
   padding-left:8px;
 }
-
-
 
 .business-hour{
   display:flex;
@@ -423,11 +380,7 @@ body {
   font-size:16px;
   text-align: left;
   line-height: 1.79;
-  /* background-color: #F6F3EE;
-  padding:8px; */
-  /* box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.3); */
-  /* box-shadow: 5px 2.5px 3px rgba(0, 0, 0, 0.3); */
-}
+ }
  
 .gallery-photo{
   text-align: center;
@@ -468,6 +421,7 @@ body {
 .button img:hover{
   opacity:1;
 }
+
 /* フッター */
 
 footer{
@@ -595,14 +549,7 @@ footer{
       margin-bottom: 40px;
     }
 
-    .access-info{
-      /* width:60%;
-      height:auto; */
-    }
-
     .access-info, transportation{
-      /* width:72%; */
-      /* margin:0 auto; */
       margin-top:16px;
       margin-bottom: 16px;
     }
@@ -617,7 +564,6 @@ footer{
       width:300px;
       height:200px;
       margin:16px;
-      /* margin:0 auto; */
     }
 
     
@@ -628,9 +574,8 @@ footer{
     }
 
     .contact-details{
-      width:490px;
-      
-     }
+      width:490px; 
+    }
 
     .gallery-info{
       width:72%;
@@ -646,11 +591,7 @@ footer{
       width:150px;
       height:225px;
       object-fit: cover;
-      /* margin:16px 8px 32px 8px; */
-      /* margin:16px 16px 32px 16px; */
       margin:32px;
-      /* box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.3);
-      transition:.3s; */
     }
 
     .footer-top{
@@ -658,5 +599,5 @@ footer{
     }
 }
 
-  /* レスポンシブヘッダー */
+
 
