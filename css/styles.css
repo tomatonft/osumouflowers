@@ -134,7 +134,6 @@ body {
     width:72%;
     margin:0 auto;
     font-size:14px;
-    margin-bottom:16px;
   }
 
   .container{
@@ -148,6 +147,7 @@ body {
   }
 
   #about{
+    margin-top:16px;
     margin-bottom:24px;
   }
 
@@ -472,6 +472,17 @@ footer{
   color:white;
  }
 
+ /* アニメーション */
+ .animate{
+   opacity:0;
+   transform:translateY(20px);
+   transition:opacity .3s, transform .3s;
+ }
+
+ .animate.appear{
+   opacity:1;
+   transform:none;
+ }
 
 /* レスポンシブ（大きい画面） */
 @media (min-width: 600px) {
